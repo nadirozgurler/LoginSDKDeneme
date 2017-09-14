@@ -1,0 +1,10 @@
+framework module LoginSDKDeneme {
+  umbrella header "LoginSDKDeneme.h"
+
+  export *
+  module * { export * }
+}
+
+module LoginSDKDeneme.Swift {
+    header "LoginSDKDeneme-Swift.h"
+}
